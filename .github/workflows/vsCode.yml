@@ -1,0 +1,17 @@
+name: CI
+
+on: [pull_request]
+
+jobs:
+  build:
+    runs-on: windows-latest
+
+      
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v1.0.0
+      
+    - name: Run test using windows agent
+      uses: kleeadrian/vscode/build/azure-pipelines/win32@Christian
+
+ 
