@@ -12,6 +12,6 @@ jobs:
       uses: actions/checkout@v1.0.0
       
     - name: Run test using windows agent
-      uses: microsoft/vscode/build/azure-pipelines/win32@master
+      uses: kleeadrian/vscode/build/azure-pipelines/win32@master
 
  
